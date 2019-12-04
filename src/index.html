@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+
+    <h3>Test RXJS & canvas</h3>
+    <a target="_blank"
+        href="https://blog.angularindepth.com/how-to-get-started-with-canvas-animations-in-angular-2f797257e5b4">От
+        сюда</a>
+    <br>
+    <canvas width="600px" height="300px"></canvas>
+    <button class="play_btn">Play</button>
+
+
+    <h3>Slider</h3>
+    <div class="slider">
+        <div class="slider__bnt--prev">
+            <button class="slider__btn">prev</button>
+        </div>
+        <div class="slider__list">
+            <div class="slider__track">
+
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/1.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/2.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/3.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/4.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/5.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/6.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/7.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/8.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/9.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img src="https://ru.js.cx/carousel/10.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="slider__bnt--next">
+            <button class="slider__btn">next</button>
+        </div>
+
+    </div>
+
+    <h3>popup </h3>
+    <button class="popup_btn">POPUP</button>
+
+    <h3>Google Auth & Drive</h3>
+
+    <button class="add-folder__btn">add Folder</button>
+    <br>
+    <button class="list-file">List File</button>
+    <br>
+    <button class="file">File</button>
+    <br>
+    <button class="signin__btn">Sign In</button>
+    <button class="signout__btn">Sign Out</button>
+
+    <h3>Tree by Object</h3>
+    <div class="tree" style="display: block;">
+
+    </div>
+
+    <h3>meteostat API</h3>
+    <button class="meteostat-btn">Get Meteo History</button>
+    <button class="clear-meteostat-btn">Clear message</button>
+    <pre class="meteostat" style="text-align: left; min-height: 500px;" >
+    </pre>
+
+    <script id="gapiscript" async defer src="https://apis.google.com/js/platform.js?onload=init"></script>
+    <script type="text/javascript" src="bundle.js"></script>
+</body>
+
+</html>
